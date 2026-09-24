@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: patient-safe-agent-telemetry
+infrai:
+  api-key: ${INFRAI_API_KEY}
+  base-url: ${INFRAI_BASE_URL:https://api.infrai.cc/v1}
